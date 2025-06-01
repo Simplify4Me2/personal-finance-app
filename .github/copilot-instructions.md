@@ -25,6 +25,7 @@ This is an Angular 19 personal finance application that helps users track their 
 
 ## Common Tasks
 When suggesting code, please:
+- Use SASS for styling the UI
 - Implement reactive forms with proper validation
 - Follow container/presenter pattern
 - Use NgRx for state management

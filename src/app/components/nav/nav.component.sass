@@ -1,0 +1,68 @@
+.nav-container
+    background: #2c3e50
+    transition: all 0.3s ease
+
+    :host
+        display: block
+
+    .nav-list
+        list-style: none
+        padding: 0
+        margin: 0
+        display: flex
+
+    & li
+        margin: 0
+
+    & a
+        color: #ecf0f1
+        text-decoration: none
+        padding: 1rem
+        display: flex
+        align-items: center
+        transition: background-color 0.3s ease
+
+    & a:hover
+        background-color: #34495e
+
+    & a.active
+        background-color: #3498db
+
+    .nav-icon
+        margin-right: 0.5rem
+        font-style: normal
+
+    @media (min-width: 768px)
+    .nav-container
+        position: fixed
+        left: 0
+        top: 0
+        bottom: 0
+        width: 250px
+
+    .nav-list
+        flex-direction: column
+
+    & li
+        width: 100%
+
+    @media (max-width: 767px)
+    .nav-container
+        position: fixed
+        bottom: 0
+        left: 0
+        right: 0
+        z-index: 1000
+
+    .nav-list
+        flex-direction: row
+        justify-content: space-around
+
+    & a
+        flex-direction: column
+        padding: 0.5rem
+        font-size: 0.8rem
+
+    .nav-icon
+        margin: 0 0 0.25rem 0
+        font-size: 1.5rem
