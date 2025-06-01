@@ -38,7 +38,6 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/personal-finance-app/",
               "budgets": [
                 {
                   "type": "initial",
