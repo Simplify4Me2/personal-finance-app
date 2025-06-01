@@ -1,9 +1,9 @@
 import { Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { TransactionsComponent } from './transactions/transactions.component';
-import { BudgetComponent } from './budget/budget.component';
-import { PotsComponent } from './pots/pots.component';
-import { RecurringBillsComponent } from './recurring-bills/recurring-bills.component';
+import { HomeComponent } from './features/home/home.component';
+import { TransactionsComponent } from './features/transactions/transactions.component';
+import { BudgetComponent } from './features/budget/budget.component';
+import { PotsComponent } from './features/pots/pots.component';
+import { RecurringBillsComponent } from './features/recurring-bills/recurring-bills.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
