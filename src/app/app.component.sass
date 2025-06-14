@@ -1,6 +1,5 @@
 .app-container
     display: flex
-    flex-direction: column-reverse
     min-height: 100%
 
     main
@@ -10,6 +9,8 @@
         min-height: 100%
 
     @media (max-width: 767px)
-    main
-        margin-left: 0
-        margin-bottom: 4rem
+        flex-direction: column-reverse
+        
+        main
+            margin-left: 0
+            margin-bottom: 4rem
