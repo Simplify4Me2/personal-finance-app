@@ -41,7 +41,8 @@ When suggesting code, please:
   selector: 'app-feature',
   standalone: true,
   imports: [CommonModule],
-  template: `<div>Feature Component</div>`
+  templateUrl: './nav.component.html',
+  styleUrls: ['./nav.component.sass'],
 })
 export class FeatureComponent {
   // Component logic

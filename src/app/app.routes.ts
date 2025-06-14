@@ -6,7 +6,8 @@ import { PotsComponent } from './features/pots/pots.component';
 import { RecurringBillsComponent } from './features/recurring-bills/recurring-bills.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },
+    { path: '', redirectTo: '/overview', pathMatch: 'full' },
+    { path: 'overview', component: HomeComponent },
     { path: 'transactions', component: TransactionsComponent },
     { path: 'budget', component: BudgetComponent },
     { path: 'pots', component: PotsComponent },
