@@ -13,4 +13,8 @@ export class NavComponent {
   isMobile(): boolean {
     return window.innerWidth < 768;
   }
+
+  isTablet(): boolean {
+    return window.innerWidth >= 768 && window.innerWidth < 1024;
+  }
 }

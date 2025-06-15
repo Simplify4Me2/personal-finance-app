@@ -3,7 +3,9 @@
         <li>
             <a routerLink="/overview" routerLinkActive="active">
                 <i class="nav-icon"><img src="assets/images/icon-nav-overview.svg" alt="Transactions Icon" class="nav-icon-svg"></i>
-                <!-- <span>Overview</span> -->
+                 @if (isTablet()) {
+                    <span class="nav-text">Overview</span>
+                 }
             </a>
         </li>
         <li>
